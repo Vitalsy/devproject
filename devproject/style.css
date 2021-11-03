@@ -1,0 +1,527 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*Пользовательские стили*/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration:none;
+}
+li{
+	list-style:none;
+}
+header{
+	width:100%;
+	background-color:#000;
+	display:flex;
+}
+.header__logo{
+	text-transform: uppercase;
+	color:#fff;
+	font-weight:800;
+	font-size:24px;
+	cursor:pointer;
+	margin-top:56px;
+	margin-left:12%;
+}
+nav{
+	margin-top:56px;
+	margin-left:29%;
+}
+.topnav a{
+	color:#fff;
+	text-align:center;
+	padding:12px 16px 16px;
+	font-size:14px;
+	font-weight:bold;
+}
+.topnav a:hover{
+	border-bottom:3px solid #fcac45;
+}
+.topnav .icon{
+	display:none;
+}
+
+main{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+}
+
+main .main__welcome{
+	background:#000;
+	text-align:center;
+	padding:200px 0 410px 0;
+}
+
+main .main__welcome p{
+	color:#999999;
+	font-size:20px;
+}
+main .main__welcome h1{
+	color:#999999;
+	font-size:44px;
+}
+.my_company{
+	color:#fcac45;
+}
+
+.my__first{
+	font-weight:bold;
+	color:#d4d4d4;
+}
+
+/* The second block*/
+
+.wrapper{
+	width:76%;
+	margin: 0 auto;
+}
+main .main__about{
+	display:flex;
+	padding:100px 0 100px 0;
+}
+.about__right{
+	margin-left:175px;
+}
+.about__right h1{
+	display:inline-block;
+	border-bottom:3px solid #fcac45;
+	padding-bottom:20px;
+	font-size:34px;
+	font-family:'Open Sans Regular';
+	font-weight:500;
+}
+.ABout_a{
+	font-weight:800;
+}
+.about__right p{
+	margin: 30px 0 50px 0;
+	color:#6c6c6c;
+	font-size:18px;
+	font-family:'Open Sans Regular';
+	word-wrap:break-word;
+}
+.about__right ul{
+	font-size:16px;
+	font-family:'Open Sans Italic';
+	color:#5a5a5a;
+}
+.Cbold{
+	font-size:18px;
+	font-family:'Open Sans Semibold', sans-serif;
+}
+.about__right li{
+	background:url(img/ul.png) 0px no-repeat;
+	padding-left:25px;
+	margin-top:10px;
+	word-wrap:break-word;
+
+}
+.liC{
+	background:url(img/ul.png) 0px no-repeat;
+	padding-top:14px;
+}
+
+.mw-100{
+	min-width:100%;
+}
+/* The end second block*/
+
+/*The sun first block*/
+
+.main__team{
+	background:#000;
+	text-align:center;
+	padding: 100px 0 165px 0;
+	color:#fff;
+}
+.main__team h1{
+	font-size:44px;
+	padding-bottom:30px;
+	font-family:'Open Sans Semibold',sans-serif;
+}
+.line{
+	width:100px;
+	height:5px;
+	background:#fcac45;
+	position:relative;
+	margin:0 auto;
+	margin-bottom:85px;
+}
+.photo{
+	background: #d7d7d7;
+	width:125px;
+	height:125px;
+	border-radius:50%;
+	margin:20px auto;
+}
+.team__cards{
+	display:flex;
+}
+.card{
+	margin:0 40px;
+}
+.name{
+	font-size:20px;
+	margin-bottom:7px;
+	font-family:'Open Sans Bold',sans-serif;
+}
+.position{
+	font-size:16px;
+	margin-bottom:30px;
+	font-family:'Open Sans Regular', sans-serif;
+}
+.about__position{
+	font-size:14px;
+	font-family:'Open Sans Regular',sans-serif;
+}
+	/*The css cards*/
+.services__cards{
+	text-align:center;
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap:20px;
+}
+.main__services h1{
+	text-align:center;
+	padding:100px 0 30px 0;
+	font-size:44px;
+	font-famiy:'Open Sans Semibold',sans-serif;
+
+}
+.main__services p{
+	color:#6c6c6c;
+	margin-bottom:100px;
+	font-size:16px;
+	font-family:'Open Sans Italic', sans-serif;
+	font-style:italic;
+	text-align:center;
+}
+.services__card h4{
+	margin-top:20px;
+	margin-bottom:15px;
+	font-size:25px;
+	font-family:'Open Sans Semibold',sans-serif;
+}
+.services__card p{
+	font-size:14px;
+	font-family:'Open Sans Rregular',sans-serif;
+}
+.main__clients{
+	background-color:#000;
+	text-align:center;
+	padding-top:100px;
+	padding-right:0;
+	padding-bottom:212px;
+	padding-left:0;
+	color:#fff;
+}
+.main__clients h1{
+	font-size:44px;
+	font-family:'Open Sans Light',sans-serif;
+	font-weight:300;
+
+}
+.main__clih1 {
+	font-family:'Open Sans Semibold',sans-serif;
+}
+.mains__line{
+	width:100px;
+	height:5px;
+	background-color:#fcac45;
+	position:relative;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:100px;
+
+}
+.shopsru img{
+	margin-right:18px;
+}
+
+/*the work */
+
+.mywrapper{
+	width: 76%;
+	margin:0 auto;
+}
+.main__work{
+	text-align: center;
+	padding:100px 0 100px 0;
+}
+.main__work h1{
+	margin-bottom:30px;
+	font-size:44px;
+	font-family:'Open Sans Light', sans-serif;
+	font-weight:400;
+}
+.Main__workspan{
+	font-family:'Open Sans Semibold', sans-serif;
+}
+.workline{
+	width:100px;
+	height:5px;
+	background-color:#fcac45;
+	position:relative;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:60px;
+
+}
+.main__work p{
+	margin-bottom:175px;
+	color:#787878;
+	font-size:16px;
+	font-family:'Open Sans Italic',sans-serif;
+	font-style:italic;
+}
+.main__work img{
+	margin-right:15px;
+	margin-bottom:30px;
+}
+.main__work img:hover{
+	opacity: 0.9;
+}
+/*the our clients */
+
+.ourclientster{
+
+	background-color:#000;
+	text-align:center;
+	padding:100px 0 170px 0;
+	color:#fff;
+}
+.mymustakes{
+	width:76%;
+	margin:0 auto;
+}
+.mymustakes h1{
+	font-size:44px;
+	font-family:'Open Sans Light',sans-serif;
+	font-weight:300;
+}
+.ourclientsthelast{
+	font-family:'Open Sans Semibold',sans-serif;
+}
+.ourclietnsline{
+	width:100px;
+	height:5px;
+	background-color:#fcac45;
+	position:relative;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom: 115px;
+}
+.clientsp{
+	font-size:18px;
+	font-family:'Open Sans Semibold',sans-serif;
+	text-transform:uppercase;
+	padding-bottom:50px;
+}
+.clientspp{
+	font-size:18px;
+	font-family:'Open Sans Semibold',sans-serif;
+	color:#b2b2b2;
+}
+.clientsppspan{
+	font-family:'Open Sans Light',sans-serif;
+}
+/**/
+.contact_form{
+	padding:100px 0 100px 0;
+}
+.contact_form h1,p{
+	text-align:center;
+}
+
+.contact_wrapper{
+	width:753px;
+	margin:0 auto;
+	color:#636363;
+}
+.contact_wrapper h1{
+	font-size:44px;
+	font-family:'Open Sans Semibold',sans-serif;
+}
+.linecontactus{
+	width:100px;
+	height:5px;
+	position:relative;
+	background-color:#fcac45;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:55px;
+}
+.mistakesp {
+	font-size:16px;
+	font-family:'Open Sans Italic',sans-serif;
+	font-style:italic;
+	color:#787878;
+	margin-bottom:100px;
+}
+.red{
+	color:red;
+}
+.contact_form h1{
+	color:#000;
+}
+form p{
+	text-align:left;
+}
+input{
+	width:360px;
+	height:40px;
+	font-size:20px;
+	margin-bottom:30px;
+}
+input:first-of-type{
+	margin-right:23px;
+}
+.form__inputs{
+	display:flex;
+}
+textarea{
+	width:100%;
+	height:163px;
+
+}
+input, textarea{
+	border:1px solid #99999999;
+	margin-top:5px;
+}
+
+.buttont{
+	display:flex;
+	justify-content: flex-end;
+}
+input[type=submit]{
+	width:165px;
+	height:40px;
+	background-color:#fcac45;
+	color:#fff;
+	margin-right:0;
+	margin-top:20px;
+}
+
+/*The footer*/
+footer{
+	width:100%;
+	background-color:#222222;
+	background-image: url(img/footer/Rectangle 7.png);
+}
+
+.footers{
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.footers img{
+	margin-right:10px;
+}
+@media screen and (max-width:1325px){
+	nav{
+		margin-left:20%;
+	}
+}
+
+
+@media screen and (max-width:1200px){
+	nav{
+		margin-left:15%;
+	}
+}
+
+}
+@media screen and (max-width:1105px){
+	nav{
+		margin-left:5%;
+	}
+}
+
+
+@media screen and (max-width:1010px){
+.topnav a{
+		display:none;
+	}
+.topnav a.icon{
+		float:right;
+		margin-top:-17px;
+		display:block;
+		color:#fff;
+		font-size:25px;
+}
+nav{
+	width:100%;
+}
+.topnav.responsive{
+	position:relative;
+	top:50px;
+	left:-200px;
+	}
+header .topnav.responsive{
+		height:340px;
+	}
+.topnav.responsive a.icon{
+		position:absolute;
+		top:-50px;
+		right:-200px;
+	}
+.topnav.responsive a{
+		float:none;
+		display:block;
+		text-align:left;
+	}
+
+
+main .main__welcome{
+	padding:50px 0 50px 0;
+	}
+main .main__welcome p{
+	font-size:14px;
+	}
+main .main__welcome h1{
+	font-size:25px;
+	}
+.mw-100{
+	max-width:100%;
+	}
+.main__about{
+	flex-direction:column;
+	}
+.about__right{
+	text-align: center;
+	margin-left:0;
+	}
+.about__right li{
+	text-align:left;
+	}
+.liC{
+	background:url(img/ul.png) 0px no-repeat;
+	padding-top:4px;
+}
+.about__right h1{
+	margin-top:10px;
+	font-size:20px;
+}
+.team__cards{
+	flex-direction:column;
+}
+.services__cards{
+	grid-template-columns:auto;
+}
+.linew1 img:not(:first-child){
+	display:none;
+}
+.linew2 img:not(:first-child){
+	display:none;
+}
+.linew3 img:not(:first-child){
+	display:none;
+}
+}
+
